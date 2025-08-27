@@ -20,4 +20,11 @@
     "typescript": "^5.0.0",
     "vite": "^4.0.0"
   }
+  {
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
 }
